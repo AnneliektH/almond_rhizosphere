@@ -6,7 +6,7 @@ https://www.biorxiv.org/content/10.1101/2023.06.03.543555v1.full
 
 
 ## Snakemake
-Most of the read processing was done using snakemake. 
+Most of the read processing was done using snakemake, see Snakefile and rules. 
 1. Read processing using [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic)
 2. Removing the PhiX spike in using [bbmap](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbmap-guide/) (this is not needed if your sequencing center does this for you!!) 
 3. Assembly using [MEGAHIT](https://github.com/voutcn/megahit)
