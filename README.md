@@ -1,5 +1,8 @@
 # almond_rhizosphere
-Repository for code used in almond rhizosphere throughout California paper
+Repository for code used in "Almond rhizosphere viral, prokaryotic, and fungal communities differed significantly among four California orchards and in comparison to bulk soil communities"
+
+
+https://www.biorxiv.org/content/10.1101/2023.06.03.543555v1.full
 
 Most of the read processing was done using snakemake. 
 1. Read processing using Trimmomatic: http://www.usadellab.org/cms/?page=trimmomatic
